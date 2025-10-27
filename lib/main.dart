@@ -36,7 +36,10 @@ class Home extends StatelessWidget {
             body: Container(
               margin: EdgeInsets.all(100),
               alignment: Alignment.center,
-              child:Text('text'),
+              color: Colors.cyanAccent,
+              child: Row(
+
+              ),
               
             ),
           );
