@@ -38,6 +38,7 @@ class Home extends StatelessWidget {
               alignment: Alignment.center,
               color: Colors.cyanAccent,
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text('test',
                     style: TextStyle(
