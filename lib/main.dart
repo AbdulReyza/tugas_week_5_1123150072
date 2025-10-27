@@ -39,7 +39,11 @@ class Home extends StatelessWidget {
               color: Colors.cyanAccent,
               child: Row(
                   children: [
-                    Text('test')
+                    Text('test',
+                    style: TextStyle(
+                      fontSize: 20
+                    ),),
+                    
                   ],
               ),
               
