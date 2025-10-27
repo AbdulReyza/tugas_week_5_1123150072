@@ -63,7 +63,19 @@ class Home extends StatelessWidget {
                     margin: EdgeInsets.all(20),
                     decoration: BoxDecoration(
                       color: Colors.blueAccent,
-                      borderRadius: BorderRadius.circular(100)
+                      borderRadius: BorderRadius.circular(100),
+                      gradient: LinearGradient(
+                        begin: Alignment.topRight,
+                        end: Alignment.centerLeft,
+                        colors: [
+                          Colors.yellow,
+                          Colors.blue
+                        ]
+                      ),
+                    border: Border.all(
+                        color: Colors.red,
+                        width: 5,
+                      )
                     ),
                   ),
                 ],
