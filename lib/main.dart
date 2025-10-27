@@ -25,7 +25,10 @@ class Home extends StatelessWidget {
     return Scaffold(
             appBar: AppBar(
               title: const Text("Halaman Utama"),
-              actions: const [],
+              actions: const [
+                Icon(Icons.access_time),
+                Icon(Icons.people),
+              ],
               backgroundColor: Colors.green,
             ),
             body: SingleChildScrollView(
