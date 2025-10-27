@@ -38,7 +38,9 @@ class Home extends StatelessWidget {
               alignment: Alignment.center,
               color: Colors.cyanAccent,
               child: Row(
-
+                  children: [
+                    Text('test')
+                  ],
               ),
               
             ),
