@@ -39,6 +39,7 @@ class Home extends StatelessWidget {
                   Container(
                     height: 200,
                     width: 200,
+                    margin: EdgeInsets.all(20),
                     decoration: BoxDecoration(
                       color: Colors.blueAccent,
                       borderRadius: BorderRadius.circular(50)
