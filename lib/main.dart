@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
             appBar: AppBar(
-              title: const Text("Dashboard"),
+              title: const Text("Halaman Utama"),
               actions: const [],
             ),
             body: SingleChildScrollView(
