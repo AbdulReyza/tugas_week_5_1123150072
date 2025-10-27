@@ -33,21 +33,15 @@ class Home extends StatelessWidget {
               ],
               backgroundColor: Colors.green,
             ),
-            body: Container(
-              margin: EdgeInsets.all(100),
-              alignment: Alignment.center,
-              color: Colors.cyanAccent,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('test',
-                    style: TextStyle(
-                      fontSize: 20
-                    ),),
-                    
-                  ],
+            body: Center(
+              child: Column(
+                children: [
+                  Container(
+                    height: 200,
+                    width: 200,
+                  ),
+                ],
               ),
-              
             ),
           );
   }
