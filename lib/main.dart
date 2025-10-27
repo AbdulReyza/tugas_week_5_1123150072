@@ -39,6 +39,10 @@ class Home extends StatelessWidget {
                   Container(
                     height: 200,
                     width: 200,
+                    decoration: BoxDecoration(
+                      color: Colors.blueAccent,
+                      borderRadius: BorderRadius.circular(50)
+                    ),
                   ),
                 ],
               ),
