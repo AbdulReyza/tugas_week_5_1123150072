@@ -42,7 +42,7 @@ class Home extends StatelessWidget {
                     margin: EdgeInsets.all(20),
                     decoration: BoxDecoration(
                       color: Colors.blueAccent,
-                      borderRadius: BorderRadius.circular(50)
+                      borderRadius: BorderRadius.circular(100)
                     ),
                   ),
                   Container(
@@ -51,7 +51,7 @@ class Home extends StatelessWidget {
                     margin: EdgeInsets.all(20),
                     decoration: BoxDecoration(
                       color: Colors.blueAccent,
-                      borderRadius: BorderRadius.circular(50)
+                      borderRadius: BorderRadius.circular(100)
                     ),
                   ),
                 ],
