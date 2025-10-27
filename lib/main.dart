@@ -34,12 +34,7 @@ class Home extends StatelessWidget {
               backgroundColor: Colors.green,
             ),
             body: SingleChildScrollView(
-              child: Container(
-                padding: const EdgeInsets.all(20.0),
-                child: const Column(
-                  children: [],
-                ),
-              ),
+              child: Text("text"),
             ),
           );
   }
