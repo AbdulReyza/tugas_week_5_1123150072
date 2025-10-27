@@ -50,6 +50,10 @@ class Home extends StatelessWidget {
                           Colors.yellow,
                           Colors.blue
                         ]
+                      ),
+                      border: Border.all(
+                        color: Colors.red,
+                        width: 5,
                       )
                     ),
                   ),
