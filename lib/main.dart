@@ -26,6 +26,7 @@ class Home extends StatelessWidget {
             appBar: AppBar(
               title: const Text("Halaman Utama"),
               actions: const [],
+              backgroundColor: Colors.green,
             ),
             body: SingleChildScrollView(
               child: Container(
