@@ -27,7 +27,9 @@ class Home extends StatelessWidget {
               title: const Text("Halaman Utama"),
               actions: const [
                 Icon(Icons.access_time),
+                SizedBox(width: 10,),
                 Icon(Icons.people),
+                SizedBox(width: 10,),
               ],
               backgroundColor: Colors.green,
             ),
