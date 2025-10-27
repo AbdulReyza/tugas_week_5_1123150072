@@ -34,9 +34,10 @@ class Home extends StatelessWidget {
               backgroundColor: Colors.green,
             ),
             body: Container(
-              child: SingleChildScrollView(
-                child: Text("text"),
-              ),
+              margin: EdgeInsets.all(100),
+              alignment: Alignment.center,
+              child:Text('text'),
+              
             ),
           );
   }
